@@ -90,3 +90,9 @@ UPDATE COUNTRIES
 SET AREA = 500000
 WHERE Name = 'Germany';
 
+
+--------------------------------------------------------
+SELECT COUNT(*) RELATIONCOUNTRYID FROM COUNTRIES 
+GROUP BY RELATIONCOUNTRYID
+---------------------------------------------------------
+HAVING COUNT(*) <3;
